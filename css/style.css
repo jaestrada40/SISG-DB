@@ -117,6 +117,7 @@ h1.lt { margin: 0; font-size: 30px; line-height: 1.1; font-weight: 800; letter-s
 .chip svg { width: 13px; height: 13px; }
 .sub { margin: -6px 0 0; color: var(--muted); }
 
+#main > * { flex-shrink: 0; }
 .stage { position: relative; border: 1.5px solid var(--line); border-radius: 16px; background: #f1e7d9; padding: 10px; overflow: hidden; }
 :root[data-theme="dark"] .stage { background: #1e1b17; }
 .stats { display: flex; gap: 8px; align-items: stretch; flex-wrap: wrap; position: relative; z-index: 2; }
